@@ -1,6 +1,14 @@
 ## comparable과 comparator
 
 > 본 글은 Comparable, Comparator을 이해하지 못해서 구글링 후 블로그에서 Comparable, Comparator에 관한 글을 공부한 글입니다. 
+>
+> #### 출처
+>
+> - 개념
+>   https://st-lab.tistory.com/243
+>
+> - 마크다운에서 토글 사용하기
+>   https://computer-science-student.tistory.com/388
 
 Comparable과 Comparator 둘 다 **인터페이스(Interface)**다. 즉 Comparable과 Comparator를 사용하려면 인터페이스 내에 **선언된 메소드를 반드시 구현(재정의, override)**해야 한다. 
 
@@ -247,10 +255,4 @@ class Student implements Comparator<Student> {
 
 ---
 
-#### 출처
-
-- 개념
-  https://st-lab.tistory.com/243
-
-- 마크다운에서 토글 사용하기
-  https://computer-science-student.tistory.com/388
+- 
